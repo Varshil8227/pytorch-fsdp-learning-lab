@@ -1,0 +1,32 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Model checkpoints and weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Downloaded datasets
+data/
+
+# Logs
+logs/
+*.log
+
+# Environment secrets
+.env
+.env.*
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
